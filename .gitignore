@@ -5,6 +5,7 @@ bin/
 obj/
 artifacts/
 Debug/
+x64/
 *.pdb
 *.user
 *.suo

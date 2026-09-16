@@ -4,16 +4,38 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickBTTrayApp", "QuickBTTrayApp\QuickBTTrayApp.csproj", "{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}"
 EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "QuickBTTrayAudio", "QuickBTTrayAudio\QuickBTTrayAudio.vcxproj", "{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "QuickBTTrayAudioTests", "QuickBTTrayAudioTests\QuickBTTrayAudioTests.vcxproj", "{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Debug|x64.Build.0 = Debug|Any CPU
+		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Release|x64.ActiveCfg = Release|Any CPU
+		{815C4DBA-0081-ABDD-A5C9-6259A74CA5C4}.Release|x64.Build.0 = Release|Any CPU
+		{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}.Debug|Any CPU.ActiveCfg = Release|x64
+		{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}.Release|Any CPU.ActiveCfg = Release|x64
+		{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}.Debug|x64.ActiveCfg = Release|x64
+		{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}.Debug|x64.Build.0 = Release|x64
+		{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}.Release|x64.ActiveCfg = Release|x64
+		{EB3A1B7D-4C77-4493-8B98-F1F1D72E4A61}.Release|x64.Build.0 = Release|x64
+		{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}.Debug|Any CPU.ActiveCfg = Release|x64
+		{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}.Release|Any CPU.ActiveCfg = Release|x64
+		{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}.Debug|x64.ActiveCfg = Release|x64
+		{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}.Debug|x64.Build.0 = Release|x64
+		{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}.Release|x64.ActiveCfg = Release|x64
+		{C864F0A4-81DD-48D9-A3C7-7F3A4BBF0B2C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
